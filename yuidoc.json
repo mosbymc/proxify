@@ -1,0 +1,9 @@
+{
+  "name": "proxify",
+  "description": "Utility for logging and profiling statistics of objects' lifecycle in your application achieved via ES6 proxies.",
+  "options": {
+    "outdir": "./yuidoc",
+    "paths": "./src/*.**",
+    "linkNatives": true
+  }
+}

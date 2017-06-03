@@ -1,0 +1,30 @@
+{
+  "env": {
+    "test": {
+      "sourceMaps": true,
+      "plugins": ["transform-es2015-modules-commonjs"]
+    },
+    "dev": {
+      "presets": ["es2015"],
+      "sourceMaps": true,
+      "plugins": [
+        [
+          "transform-es2015-modules-commonjs",
+          "babel-plugin-transform-runtime",
+          "istanbul", {
+          "exclude": ["test", "dev/expressionParser/expressionParser.js"]
+        }
+        ]
+      ]
+    },
+    "dev-build": {
+      "presets": ["es2015"],
+      "sourceMaps": true,
+      "plugins": ["transform-es2015-modules-commonjs", "babel-plugin-transform-runtime"]
+    },
+    "build": {
+      "sourceMaps": true,
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "esversion": 6,
+  "futurehostile": true,
+  "freeze": true,
+  "latedef": "nofunc",
+  "noarg": true,
+  "undef": true,
+  "unused": true,
+  "eqnull": true,
+  "validthis": true,
+  "noyield": true,
+  "predef": [
+    "require",
+    "module",
+    "process",
+    "Element"
+  ],
+  "loopfunc": true,
+  "boss": true,
+  "expr": true,
+  "sub": true,
+  "-W086": true,
+  "browser": true,
+  "node": true,
+  "excludePath": "./.jshintignore"
+}

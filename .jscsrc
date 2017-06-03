@@ -1,0 +1,29 @@
+{
+  "disallowAnonymousFunctions": true,
+  "disallowArrowFunctions": true,
+  "disallowKeywords": ["with", "class", "const", "new"],
+  "disallowShorthandArrowFunctions": true,
+  "requireSemicolons": true,
+  "disallowMultipleLineBreaks": true,
+  "disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
+  "disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
+  "disallowSpacesInCallExpression": true,
+  "disallowTrailingComma": true,
+  "validateQuoteMarks": "'",
+  "requireYodaConditions": true,
+  "excludeFiles": ["./routes/**", "./test/**", "./**", "./.tmp/**", "./dist/**", "./node_modules/**", "./yuidoc/**", "./plato/**", "./platoTmp/**", "./dev/**"],
+  "requireSpaceBeforeObjectValues": true,
+  "jsDoc": {
+    "checkParamNames": true,
+    "requireParamTypes": true,
+    "checkRedundantParams": true,
+    "checkReturnTypes": true,
+    "checkRedundantReturns": true,
+    "checkRedundantAccess": true,
+    "leadingUnderscoreAccess": true,
+    "requireHyphenBeforeDescription": true,
+    "requireNewlineAfterDescription": true,
+    "checkTypes": "strictNativeCase",
+    "enforceExistence": "exceptExports"
+  }
+}

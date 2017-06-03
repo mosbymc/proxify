@@ -1,0 +1,26 @@
+{
+  "name": "proxify",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Mark Mosby",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jscs-stylish": "^1.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-print": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-strip-comments": "^2.4.5",
+    "jscs": "^3.0.7",
+    "jshint": "^2.9.4",
+    "karma": "^1.7.0",
+    "mocha": "^3.4.2",
+    "mocha-sinon": "^2.0.0",
+    "sinon": "^2.3.2",
+    "sinon-chai": "^2.10.0",
+    "yargs": "^8.0.1"
+  }
+}
