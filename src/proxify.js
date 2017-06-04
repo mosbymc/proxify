@@ -11,9 +11,9 @@ function proxify(target) {
     // delegate to appropriate factory
     if (Array.isArray(target)) {
         return createArrayProxy(target);
-    } else if (typeof target === 'function') {
+    } else if ('function' === typeof target) {
         return createFunctionProxy(target);
-    } else if (target !== null && typeof target === 'object') {
+    } else if (null !== target && 'object' === typeof target) {
         return createObjectProxy(target);
     }
 
