@@ -22,5 +22,8 @@
     "sinon": "^2.3.2",
     "sinon-chai": "^2.10.0",
     "yargs": "^8.0.1"
+  },
+  "dependencies": {
+    "fs-extra": "^8.0.1"
   }
 }
