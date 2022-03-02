@@ -16,7 +16,7 @@
     "gulp-strip-comments": "^2.4.5",
     "jscs": "^3.0.7",
     "jshint": "^2.9.4",
-    "karma": "^1.7.0",
+    "karma": "^6.3.16",
     "mocha": "^3.4.2",
     "mocha-sinon": "^2.0.0",
     "sinon": "^2.3.2",
